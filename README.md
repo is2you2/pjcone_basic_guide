@@ -31,7 +31,7 @@ Below are steps to use the chat function within the team.
 - If you share the group server and group information with a QR code, you can interact with other team members.
 
 ## Godot engine configuration limitations
-- You can play *.pck files compatible with the 3.5.1-stable version or equivalent version.
+- You can play *.pck files compatible with the 3.5.2-stable version or equivalent version.
 - The Viewer loads ContentViewer.tscn as a child object after loading the *.pck file. Therefore, *.pck files that you want to share must have ContentViewer.tscn.
 - In general, set up the specific node you want to share by configuring it as follows.
 ```gdscript
