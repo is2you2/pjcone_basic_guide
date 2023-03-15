@@ -4,13 +4,11 @@ This page is a temporary page that helps you use the early release app immediate
 
 ## The main technologies supported by the current version
 - You can easily manage To-do.
-- After building a Nakama server, you can chat and send and receive files with other people. (Godot-3.5.1-stable *.pck files can be viewed)
+- After building a Nakama server, you can chat and send and receive files with other people. (Godot-3.5.2-stable *.pck files can be viewed)
 - You can chat with random people connected to the community server.
 - You can share the prepared environment to others using a QR code.
 
 ## Confirmed errors and unprepared features that users should be aware of in this version
-- If the app is closed during file transfer, it will not be uploaded again.
-If you receive a file while the other party is sending it, you will stop receiving it and will not be able to receive it again.
 - Some media files cannot be opened depending on the media properties.
 - Nakama chat channels are sometimes recognized as unavailable. If this happens even though you haven't left the channel, please restart the app after deleting the channel.
 - Sometimes the 1:1 chat channel does not work properly.
