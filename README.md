@@ -5,7 +5,7 @@ This page is a temporary page that helps you use the early release app immediate
 ## The main technologies supported by the current version
 - You can easily manage To-do.
 - After building a Nakama server, you can chat and send and receive files with other people. (Godot-3.5.2-stable *.pck files can be viewed)
-- You can chat with random people connected to the community server.
+- You can chat with random people connected to the assistant server.
 - You can share the prepared environment to others using a QR code.
 
 ## Confirmed errors and unprepared features that users should be aware of in this version
@@ -22,11 +22,11 @@ Below are steps to use the chat function within the team.
 - To use the chat function, you need to build a private Nakama server. Details can be found on [this page](https://heroiclabs.com/docs/nakama/getting-started/install/docker/).
 - If setting up Nakama is difficult, install [Docker](https://www.docker.com/), [download this file](https://github.com/is2you2/pjcone_basic_guide/raw/main/nakama.zip), open a terminal in the folder where the docker-compose.yml file is located, and type **docker-compose up -d**.
 - Go to the settings screen
-- Enter the group server menu.
+- Enter the main server menu.
 - Enter information such as the address of the Nakama server.
 - After returning to the previous screen, move to the Add Group page.
 - After entering group information, share the generated QR code with your team members.
-- If you share the group server and group information with a QR code, you can interact with other team members.
+- If you share the main server and group information with a QR code, you can interact with other team members.
 
 ## Godot engine configuration limitations
 - You can play *.pck files compatible with the 3.5.2-stable version or equivalent version.
